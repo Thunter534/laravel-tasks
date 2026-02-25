@@ -25,7 +25,7 @@ class AppServiceProvider extends ServiceProvider
             storage_path('framework/sessions'),
             storage_path('framework/views'),
             storage_path('framework/cache'),
-            bootstrap_path('cache'),
+            base_path('bootstrap/cache'),
         ];
 
         foreach ($paths as $path) {
